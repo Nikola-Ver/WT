@@ -1,0 +1,36 @@
+.text {
+  margin: auto;
+  margin-top: 110px;
+  border-radius: 25px;
+  width: 75%;
+  height: 800px;
+  background: #f8f8f8;
+  border: 3px #2edddd solid;
+  padding: 20px;
+  box-shadow: 0 15px 30px black;
+  overflow: auto;
+}
+
+.text::-webkit-scrollbar {
+  display: none;
+}
+
+.URL:hover {
+  border: 1px green solid;
+}
+
+.space_after_text {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+}
+
+pre {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 15px;
+}
+
+.URL {
+  text-decoration: none;
+  color: green;
+}
