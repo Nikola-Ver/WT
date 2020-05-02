@@ -1,0 +1,30 @@
+http://foo.com
+http://goo.gl
+https://foo.com
+https://www.foo.com
+https://www.foo.com/
+https://www.foo.com/bar
+http://goo.gl/1 http://goo.gl/2
+foo (http://goo.gl/1) http://goo.gl/
+http://foo.com/. http://foo.com/! http://foo.com/,
+This url does not have a protocol: goo.gl/1
+http://firstround.com/review/thoughts-on-gender-and-radical-candor/?ct=t
+https://google.com
+
+https:google.com
+
+www.cool.com.au
+
+http://www.cool.com.au
+
+http://www.cool.com.au/ersdfs
+
+http://www.cool.com.au/ersdfs?dfd=dfgd@s=1
+
+http://www.cool.com:81/index.html
+
+8.8.8.8; google
+
+255.255.255.0
+
+https://www.youtube.com/watch?v=J-dv_DcDD_A&list=RDtt2k8PGm-TI&index=11; youtube
