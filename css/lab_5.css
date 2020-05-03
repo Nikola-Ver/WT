@@ -1,5 +1,6 @@
 :root {
   --height_main_div: 850px;
+  --color_border: white;
 }
 
 .input:focus {
@@ -7,15 +8,15 @@
 }
 
 .input_submit:hover {
-  color: white;
+  color: var(--color_border);
 }
 
 .input::placeholder {
-  color: white;
+  color: var(--color_border);
 }
 
 .sql_response_div:not(:first-child) {
-  border-top: 2px white solid;
+  border-top: 2px var(--color_border) solid;
 }
 
 .output_sql::-webkit-scrollbar,
@@ -85,7 +86,7 @@
   width: 100%;
   height: 35px;
   border: none;
-  border-bottom: 2px white solid;
+  border-bottom: 2px var(--color_border) solid;
   transition: 0.5s;
   margin: 20px;
   margin-left: 0;
@@ -138,8 +139,8 @@
 .input_sql {
   width: 50%;
   height: var(--height_main_div);
-  border: 2px white solid;
-  border-right: 1px white solid;
+  border: 2px var(--color_border) solid;
+  border-right: 1px var(--color_border) solid;
   border-left: none;
   overflow: auto;
 }
@@ -147,8 +148,8 @@
 .output_sql {
   width: 50%;
   height: var(--height_main_div);
-  border: 2px white solid;
-  border-left: 1px white solid;
+  border: 2px var(--color_border) solid;
+  border-left: 1px var(--color_border) solid;
   border-right: none;
   overflow: auto;
 }
