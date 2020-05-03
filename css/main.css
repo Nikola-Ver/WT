@@ -361,11 +361,11 @@ body {
 
 .reg_log::placeholder,
 .reg_pas::placeholder {
+  text-align: center;
   color: white;
 }
 
 .reg_log {
-  text-align: center;
   padding: 5px;
   outline: none;
   color: #25b3b3;
@@ -382,7 +382,6 @@ body {
 }
 
 .reg_pas {
-  text-align: center;
   padding: 5px;
   outline: none;
   color: #25b3b3;
