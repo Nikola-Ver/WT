@@ -28,8 +28,8 @@ $main_elements = '
     <p class="heading" id="reg_head" onclick="flagEnteryOn()">
         Авторизация
     </p>
-    <input name="login" type="email" class="reg_log" onclick="flagEnteryOn()" />
-    <input name="password" type="password" class="reg_pas" onclick="flagEnteryOn()" />
+    <input name="login" type="email" class="reg_log" onclick="flagEnteryOn()" placeholder="Почта" />
+    <input name="password" type="password" class="reg_pas" onclick="flagEnteryOn()" placeholder="      Пароль" />
     <img src="../picture/no_eye.png" class="pas_eye" onclick="changeEye(), flagEnteryOn()" />
     <input name="send" type="submit" value="Войти" class="heading" id="but_send" onclick="flagEnteryOn()" />
     </form>
