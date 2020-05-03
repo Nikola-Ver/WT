@@ -15,7 +15,7 @@
 }
 
 .sql_response_div:not(:first-child) {
-  border-top: 2px white dotted;
+  border-top: 2px white solid;
 }
 
 .output_sql::-webkit-scrollbar,
