@@ -43,7 +43,7 @@ $main_elements = '
       <img src="../picture/regex.png" class="img_tasks" title="4 лаба (регулярные выражения)">
     </a>
 
-    <a class="task" href="">
+    <a class="task" href="lab_5.php">
       <img src="../picture/sql.png" class="img_tasks" title="5 лаба (MySQL & PHP)">
     </a>
 
