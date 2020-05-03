@@ -1,0 +1,24 @@
+:root {
+  --height_main_div: 850px;
+}
+
+.main_div {
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  height: var(--height_main_div);
+  width: 90%;
+}
+
+.input_sql {
+  width: 50%;
+  height: var(--height_main_div);
+  background: rgba(255, 0, 0, 0.185);
+}
+
+.output_sql {
+  width: 50%;
+  height: var(--height_main_div);
+  background: rgba(0, 128, 0, 0.178);
+}
