@@ -34,6 +34,7 @@
         <div class="main_div">
             <div class="input_sql">
                 <form action="lab_5.php" method="GET" class="form_add">
+                    <p class="input"><?= 'В таблице записей: ' . count($keys); ?></p>
                     <input type="text" name="sql_base" class="input" value="<?= $base; ?>" readonly>
                     <input type="text" name="sql_table" class="input" value="<?= $table; ?>" readonly>
                     <?php for ($i = 0; $i < count($keys); $i++) : ?>
