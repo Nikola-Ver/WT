@@ -47,16 +47,12 @@ $main_elements = '
       <img src="../picture/sql.png" class="img_tasks" title="5 лаба (MySQL & PHP)">
     </a>
 
-    <a class="task" href="lab_6.php">
-      <img src="../picture/calendar.png" class="img_tasks" title="6 лаба (календарь)">
-    </a>
-
     <a class="task" href="lab_7.php">
-      <img src="../picture/calendar.png" class="img_tasks" title="7 лаба (календарь)">
+      <img src="../picture/mail.png" class="img_tasks" title="7 лаба (почта)">
     </a>
 
     <a class="task" href="lab_8.php">
-      <img src="../picture/calendar.png" class="img_tasks" title="8 лаба (календарь)">
+      <img src="../picture/statistics.png" class="img_tasks" title="8 лаба (динамический сайт)">
     </a>
 
     <div class="img_tasks_div">
