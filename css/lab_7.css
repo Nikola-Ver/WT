@@ -1,0 +1,140 @@
+:root {
+  --color_input: rgb(210, 210, 210);
+  --color_border: #25b3b3;
+}
+
+@keyframes blink {
+  0% {
+    border-color: #25b3b3;
+  }
+
+  10% {
+    border-color: #00fd61;
+  }
+
+  20% {
+    border-color: #d9ff00;
+  }
+
+  30% {
+    border-color: #ffa600;
+  }
+
+  40% {
+    border-color: #ff6600;
+  }
+
+  50% {
+    border-color: #ff0800;
+  }
+
+  60% {
+    border-color: #f700ff;
+  }
+
+  70% {
+    border-color: #8c00ff;
+  }
+
+  80% {
+    border-color: #4700ec;
+  }
+
+  90% {
+    border-color: #252fb3;
+  }
+
+  100% {
+    border-color: #25b3b3;
+  }
+}
+
+.input_text::placeholder {
+  text-align: center;
+  color: white;
+}
+
+.input_div {
+  margin: auto;
+  margin-top: 120px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_text:focus {
+  --color_border: #ffffff;
+  animation: stop;
+}
+
+.input_text:nth-child(1) {
+  height: 35px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  outline: none;
+  background: var(--color_input);
+  border: none;
+  border-bottom: 2px var(--color_border) solid;
+}
+
+.input_text:nth-child(2) {
+  height: 35px;
+  outline: none;
+  background: var(--color_input);
+  border: none;
+  border-bottom: 2px var(--color_border) solid;
+}
+
+.input_text:nth-child(3) {
+  height: 680px;
+  resize: none;
+  outline: none;
+  background: var(--color_input);
+  border: none;
+  border-bottom: 2px var(--color_border) solid;
+}
+
+.input_text {
+  color: #0bbbbb;
+  padding: 5px;
+  font-size: 22px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  animation: blink 50s linear infinite;
+}
+
+.input_submit {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+#send {
+  user-select: none;
+  cursor: pointer;
+  color: #25b3b3;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  text-shadow: 0 10px 25px rgba(14, 162, 175, 0.25);
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+#send:hover {
+  background: linear-gradient(180deg, #06c000, #2acecea2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 800px) {
+  .input_text:nth-child(3) {
+    height: 400px;
+  }
+
+  .input_div {
+    margin-top: 90px;
+    width: 90%;
+  }
+}
