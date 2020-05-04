@@ -55,6 +55,10 @@ if (strlen($change_page) === 0) {
         body {
             background-color: ' . $background_color . ' !important; 
         }
+
+        .content_box {
+            background-color: ' . $background_color . ' !important; 
+        }
         
         p {
             -webkit-text-fill-color: ' . $main_font_color . ' !important;
