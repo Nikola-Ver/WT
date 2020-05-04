@@ -312,6 +312,7 @@ body {
 }
 
 .user_log {
+  text-align: center;
   cursor: pointer;
   margin: 0;
   padding: 0;
@@ -325,6 +326,9 @@ body {
 }
 
 .user_reg {
+  text-align: center;
+  outline: none;
+  border: none;
   margin: 0;
   padding: 0;
   cursor: pointer;
@@ -337,12 +341,44 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-#reg_head {
+.change_page_div {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.change_page_div div {
+  height: 70px;
+  display: flex;
+  padding-left: 20px;
+  background: linear-gradient(180deg, #81d1f1, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: 800;
+}
+
+.change_page_div div input {
+  -webkit-text-fill-color: black;
+  margin-top: 25px;
+  height: 20px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+#reg_head,
+#change_page_head {
   user-select: none;
   margin-top: 250px;
   font-size: 36px;
   text-align: center;
   text-shadow: 0 10px 25px rgba(14, 162, 175, 0.52);
+}
+
+#change_page_head {
+  margin-top: 150px;
 }
 
 #but_send {
@@ -762,6 +798,10 @@ body {
 
   #reg_head {
     margin-top: 100px;
+  }
+
+  #change_page_head {
+    margin-top: 55px;
   }
 
   .reg_log {

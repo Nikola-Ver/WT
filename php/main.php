@@ -25,7 +25,7 @@
   <div class="cards_flex">
     <a href="html.php">
       <div class="language_cards" id="htmlCard">
-        <p class="headingText">html</p>
+        <h1 class="headingText">html</h1>
         <img src="../picture/html.png" alt="Картинка не найдена или еще не загрузилась!" class="languageIcons" />
         <p class="textAboutLanguage">
           HTML (от англ. hyper_text Markup Language — «язык гипертекстовой
@@ -43,7 +43,7 @@
 
     <a href="css.php" class="cat_hover">
       <div class="language_cards" id="cssCard">
-        <p class="headingText">css</p>
+        <h1 class="headingText">css</h1>
         <img src="../picture/css.png" alt="Картинка не найдена или еще не загрузилась!" class="languageIcons" />
         <p class="textAboutLanguage">
           CSS (/siːɛsɛs/ англ. Cascading Style Sheets — каскадные таблицы
@@ -63,7 +63,7 @@
 
     <a href="js.php">
       <div class="language_cards" id="jsCard">
-        <p class="headingText">js</p>
+        <h1 class="headingText">js</h1>
         <img src="../picture/js.png" alt="Картинка не найдена или еще не загрузилась!" class="languageIcons" />
         <p class="textAboutLanguage">
           JavaScript — мультипарадигменный язык программирования. Поддерживает
@@ -81,7 +81,7 @@
 
     <a href="php.php">
       <div class="language_cards" id="phpCard">
-        <p class="headingText">php</p>
+        <h1 class="headingText">php</h1>
         <img src="../picture/php.png" alt="Картинка не найдена или еще не загрузилась!" class="languageIcons" />
         <p class="textAboutLanguage">
           PHP (/pi:.eɪtʃ.pi:/ англ. PHP: hyper_text Preprocessor — «PHP:

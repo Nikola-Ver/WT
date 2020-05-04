@@ -18,7 +18,7 @@
   ?>
 
   <div class="content_box">
-    <p class="heading" id="bookHeading">Современный PHP учебник</p>
+    <h1 class="heading" id="bookHeading">Современный PHP учебник</h1>
     <ul class="hyper_text_block">
       <a href="" class="hyper_text">
         <li><span>Знакомство с языком</span></li>

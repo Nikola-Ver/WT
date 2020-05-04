@@ -29,7 +29,7 @@ let userPropertyOn_ = () => {
   }
 };
 
-let userEnteryOn = flag => {
+let userEnteryOn = (flag) => {
   let [div] = document.getElementsByClassName("user_enter_block");
   div.style.visibility = "visible";
   [div] = document.getElementsByClassName("reg_log");
@@ -41,11 +41,13 @@ let userEnteryOn = flag => {
     div.textContent = "Авторизация";
     div = document.getElementById("but_send");
     div.value = "Войти";
+    div.name = "come_in";
   } else {
     div = document.getElementById("reg_head");
     div.textContent = "Регистрация";
     div = document.getElementById("but_send");
     div.value = "Отправить";
+    div.name = "new_reg";
   }
 };
 
