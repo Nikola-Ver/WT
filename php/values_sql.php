@@ -3,4 +3,4 @@ $name = "root";
 $password = "";
 $host = "localhost";
 $base = "mybase";
-$table = "users_statistics";
+$table = "users__statistics";
