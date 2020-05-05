@@ -16,6 +16,15 @@
     include 'main_elements.php';
     echo $main_elements;
     ?>
+
+    <?php
+    include 'values_sql.php';
+    $link = mysqli_connect($host, $name, $password, $base);
+    $query = "SELECT * FROM " . $table;
+    if (!mysqli_connect_errno()) {
+        print_r(mysqli_fetch_all(mysqli_query($link, $query)));
+    }
+    ?>
 </body>
 
 </html>

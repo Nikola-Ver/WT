@@ -1,5 +1,6 @@
 <?php
 include 'logic.php';
+include 'lab_8_statistics.php';
 $main_elements = '
     <div class="main_hat" style="background:' . $background  . '"
     <a href="main.php">
