@@ -68,13 +68,8 @@
 }
 
 .input_text:nth-child(1) {
-  height: 45px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  outline: none;
-  background: var(--color_input);
-  border: none;
-  border-bottom: 2px var(--color_border) solid;
 }
 
 .input_text {
@@ -86,9 +81,9 @@
   text-align: center;
 }
 
-.input_text:nth-child(5) {
+.input_text:nth-child(3) {
   text-align: left;
-  height: 550px;
+  height: 650px;
   resize: none;
   outline: none;
   background: var(--color_input);
@@ -131,8 +126,8 @@
 }
 
 @media screen and (max-width: 800px) {
-  .input_text:nth-child(5) {
-    height: 200px;
+  .input_text:nth-child(3) {
+    height: 300px;
   }
 
   .input_div {
