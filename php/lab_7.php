@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/lab_7.css" />
     <script src="../js/hat.js"></script>
     <script src="../js/registration.js"></script>
+    <script src="../js/capcha.js"></script>
     <?php include 'lab_7_logic.php'; ?>
 </head>
 
@@ -23,8 +24,16 @@
         <input name="email" type="email" class="input_text" placeholder="Email получателя">
         <input name="subject" type="text" class="input_text" placeholder="Тема письма">
         <textarea name="text" class="input_text" placeholder="Введите письмо..."></textarea>
+        <img src="lab_7_capcha.php" class="capcha" onclick="refreshCapcha()" title="Нажмите на картинку, чтобы ее обновить">
+        <input name="capcha" type="text" placeholder="Введите текст с картинки" class="input_text">
         <input name="send" type="submit" class="heading" id="send" value="Отправить">
     </form>
+
+    <script>
+        if (<?= $flag ? 'false' : 'true' ?>)
+            if (<?= $flag_capcha ? 'false' : 'true' ?>) alert('Введен неверно текст с каритнки')
+        else alert('Произошла ошибка отправки');
+    </script>
 </body>
 
 </html>
