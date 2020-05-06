@@ -1,6 +1,7 @@
 <?php
 include 'logic.php';
 $main_elements = '
+    <script src="../js/questions.js"></script>
     <div class="main_hat" style="background:' . $background  . '">
     <a href="main.php">
     <img src="../picture/MainIcon.png" class="icon_hat" />
@@ -54,6 +55,10 @@ $main_elements = '
     <a class="task" href="lab_8.php">
       <img src="../picture/statistics.png" class="img_tasks" title="8 лаба (динамический сайт)">
     </a>
+
+    <p class="task" onclick="startASurvey()">
+      <img src="../picture/questions.png" class="img_tasks" title="Доп лаба (опросник)">
+    </p>
 
     <div class="img_tasks_div">
       <img src="../picture/tasks.png" class="img_tasks" title="Лабы">

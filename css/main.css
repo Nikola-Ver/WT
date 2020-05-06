@@ -85,7 +85,7 @@
 }
 
 .lab_tasks:hover {
-  height: calc(5 * 20px + 6 * 55px);
+  height: calc(6 * 20px + 7 * 55px);
   /* height: calc(6 * 20px + 7 * (55px)); */
 }
 
