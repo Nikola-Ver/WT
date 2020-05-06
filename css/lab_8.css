@@ -81,7 +81,8 @@ th {
 .graphic_column {
   box-shadow: 0 0 5px black;
   margin-top: auto;
-  margin-left: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-bottom: 0;
   width: 20px;
   background: linear-gradient(290deg, #035a7c, #2acece);
