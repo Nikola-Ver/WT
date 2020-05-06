@@ -1,7 +1,7 @@
 <?php
 include 'logic.php';
 $main_elements = '
-    <div class="main_hat" style="background:' . $background  . '"
+    <div class="main_hat" style="background:' . $background  . '">
     <a href="main.php">
     <img src="../picture/MainIcon.png" class="icon_hat" />
     <img src="../picture/effect.gif" class="effect_hat" />
