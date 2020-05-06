@@ -87,7 +87,7 @@ for ($d = 0; $d < count($users); $d++) {
     array_push($statistics, array($users[$d][0], $users[$d][2]));
 }
 
-$showGraphic = '<h1 class="main_text_graphic">Attendance schedule<h1><div class="graphic_div"><div class="graphic">';
+$showGraphic = '<h1 class="main_text_graphic">Attendance schedule</h1><div class="graphic_div"><div class="graphic">';
 for ($i = 0; $i < count($statistics); $i++) {
     $showGraphic .= '<div class="graphic_column" style="height: ' .
         ((float) $statistics[$i][1]) / ((float) $maxCount) * 100
